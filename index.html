@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PimPim - VALORANT community Discord bot for MAJT3ERCORE.">
+<title>PimPim | MAJT3ERCORE</title>
+<style>
+:root {
+  --purple: #a855f7;
+  --blue: #6366f1;
+  --bg: #080810;
+  --card: #141421;
+  --text: #eeeef5;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+header {
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #29263d;
+}
+.logo {
+  color: var(--purple);
+  font-size: 24px;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+  background: radial-gradient(
+    ellipse at center,
+    #301052 0%,
+    #080810 70%
+  );
+}
+h1 {
+  font-size: clamp(48px, 9vw, 85px);
+  margin: 0;
+  text-shadow: 0 0 35px #9333ea;
+}
+.subtitle {
+  color: #c4b5fd;
+  letter-spacing: 4px;
+}
+.hero p {
+  max-width: 650px;
+  margin: 25px auto;
+  color: #bcb8cb;
+}
+.status {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid var(--purple);
+  border-radius: 30px;
+  color: #d8b4fe;
+}
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 70px 25px;
+}
+h2 {
+  color: #c084fc;
+  font-size: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid #332448;
+  border-radius: 14px;
+  padding: 25px;
+}
+.card h3 { color: #c084fc; }
+.card p { color: #bcb8cb; }
+.notice {
+  background: #171124;
+  border-left: 3px solid var(--purple);
+  padding: 20px;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 35px 20px;
+  border-top: 1px solid #29263d;
+  color: #9994aa;
+  font-size: 13px;
+}
+@media(max-width:600px) {
+  header { flex-direction: column; }
+  nav a { margin: 0 8px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">PIMPIM.exe</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#tournaments">Tournaments</a>
+    <a href="#privacy">Privacy</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="subtitle">MAJT3ERCORE PROJECT</div>
+  <h1>PIMPIM</h1>
+  <p>
+    Your VALORANT community companion.
+    Competitive ranks, player statistics,
+    community leaderboards and more.
+  </p>
+  <span class="status">● IN DEVELOPMENT</span>
+</div>
+
+<section id="features">
+  <h2>01 / Features</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Rank Tracking</h3>
+      <p>Track VALORANT competitive ranks through Discord.</p>
+    </div>
+    <div class="card">
+      <h3>Player Statistics</h3>
+      <p>Access player information and match statistics using
+      authorized Riot Games API endpoints.</p>
+    </div>
+    <div class="card">
+      <h3>Leaderboards</h3>
+      <p>Planned community rankings for participating players.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tournaments">
+  <h2>02 / Community Tournaments</h2>
+  <div class="notice">
+    Future development may include VALORANT tournaments
+    organized for the MAJT3ERCORE Discord community.
+    Planned features include participant registration,
+    tournament standings and match results.
+    These features are not yet available.
+  </div>
+</section>
+
+<section id="privacy">
+  <h2>03 / Privacy & Data</h2>
+  <p>
+    PimPim is an independent Discord bot currently
+    under development for the MAJT3ERCORE community.
+  </p>
+  <p>
+    Riot accounts will only be linked voluntarily.
+    Authorized Riot Games API data will be used to provide
+    player statistics, competitive information and
+    community features.
+  </p>
+  <p>
+    PimPim does not request Riot account passwords
+    and does not modify gameplay.
+  </p>
+  <p>
+    For privacy inquiries or data removal requests,
+    please contact the project administrator through
+    the MAJT3ERCORE community.
+  </p>
+</section>
+
+<footer>
+  © 2026 PimPim | MAJT3ERCORE<br>
+  PimPim is not endorsed by Riot Games and does not
+  reflect the views or opinions of Riot Games or anyone
+  officially involved in producing or managing Riot Games properties.
+</footer>
+
+</body>
+</html>
